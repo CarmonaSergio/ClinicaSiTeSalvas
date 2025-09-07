@@ -1,6 +1,6 @@
 const Paciente = require('../modelo/PacienteModelo');
 
-const PacienteControlador = {
+const PacienteControlador = { //
     async vistaTodo(req, res) {
         try {
             const pacientes = await Paciente.mostrarTodo();

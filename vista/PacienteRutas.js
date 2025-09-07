@@ -9,4 +9,4 @@ router.put('/editar/:id', rutapaciente.actualizarPaciente);
 router.delete('/:id', rutapaciente.borrarPaciente);
 
 
-module.exports = router;
+module.exports = router; //
