@@ -26,7 +26,7 @@ SET default_table_access_method = heap;
 --
 -- TOC entry 218 (class 1259 OID 16402)
 -- Name: medico; Type: TABLE; Schema: public; Owner: postgres
---
+---
 
 CREATE TABLE public.medico (
     idmedico integer NOT NULL,
